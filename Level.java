@@ -9,8 +9,11 @@ public class Level{
         goalReached = true;
     }
 
+    public void setPoints(int p){
+        points = p;
+    }
+
     public int getPoints(){
         return points;
-
     }
 }
