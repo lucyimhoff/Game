@@ -9,5 +9,13 @@ public class Main{
         one.getLevel(3).setPoints(500);
         one.makeBonus();
         System.out.println(one.getScore());
+        
+        Game two = new Game();
+        two.getLevel(1).reachGoal();
+        two.getLevel(1).setPoints(200);
+        two.getLevel(2).reachGoal();
+        two.getLevel(2).setPoints(100);
+        two.getLevel(3).setPoints(500);
+        System.out.println(two.getScore());
     }
 }
